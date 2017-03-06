@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "571461945338",
+    "firebase_url": "https://android-haivl.firebaseio.com",
+    "project_id": "android-haivl",
+    "storage_bucket": "android-haivl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571461945338:android:854bfc1ba268bf15",
+        "android_client_info": {
+          "package_name": "com.nimkid.haivl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571461945338-epugskc173a9s7fqa3qnk5pf874qdkbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [{"current_key":"AIzaSyD1L-Z_VUM7n_tW9vra2p9JxbcrEVKVUTM"}],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

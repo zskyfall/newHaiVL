@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/edtPostTitle"
+        android:hint="Tiêu đề" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_cloud_upload_black_24dp"
+        android:id="@+id/imgbtnUpload"
+        android:elevation="0dp"
+        android:layout_below="@+id/edtPostTitle"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Đăng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPostSubmit"
+        android:backgroundTint="#f206ea"
+        android:textColor="#fff"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/imgPicture"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        app:srcCompat="@drawable/com_facebook_button_background"
+        android:layout_marginTop="8dp"
+        android:id="@+id/imgPicture"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/imgbtnUpload"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp"
+    android:backgroundTint="#fff"
+    android:layout_marginTop="6dp"
+    android:id="@+id/cv_post">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:id="@+id/rl_main">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/ln_title_bar">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtPostTitle"
+                android:text="asdasdasdada"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+
+                />
+
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_centerVertical="true"
+            android:id="@+id/fl_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:id="@+id/imgView"
+                />
+
+        </FrameLayout>
+        <LinearLayout
+            android:id="@+id/ln_action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/fl_code"
+            >
+
+            <com.like.LikeButton
+                app:icon_type="heart"
+                android:id="@+id/btnlove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:liked="false"
+                android:elevation="15dp"
+                card_view:icon_type="heart" />
+            <com.like.LikeButton
+                app:icon_type="like"
+                android:id="@+id/btnlike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:liked="true"
+                android:elevation="15dp"
+                card_view:icon_type="thumb" />
+            <com.like.LikeButton
+                app:icon_type="smile"
+                android:id="@+id/btnsmile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:liked="true"
+                android:elevation="15dp"
+                card_view:icon_type="star" />
+
+
+
+
+            <TextView
+                android:textColor="#c13636"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtLike"/>
+            <TextView
+                android:textColor="#5ecc3d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtLove"/>
+            <TextView
+                android:textColor="#fafa15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDislike"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtID"
+                android:visibility="invisible"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
