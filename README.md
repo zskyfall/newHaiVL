@@ -17,4 +17,10 @@
 <br>
 <h2>Về Tác Giả/Liên hệ</h2>
 <img src="http://i.imgur.com/jFPSZyD.png">
+<h2>Một số thông tin khác:</h2>
+<br>
+<h3>- Ứng dụng sử dụng Facebook SDK để xây dựng chức năng đăng nhập( com.facebook.android:facebook-android-sdk:[4,5) )</h3><br>
+<h3>- Sử dụng thư viện Volley và Ion để gửi và nhận HTTP request/response( com.android.volley:volley:1.0.0 )</h3><br>
+<h3>- Sử dụng CardView và ShineButton để thiết kế giao diện( com.android.support:cardview-v7:25.1.0 , com.sackcentury:shinebutton:0.1.6 )</h3>
+.....
 
